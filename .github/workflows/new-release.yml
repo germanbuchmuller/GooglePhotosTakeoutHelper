@@ -1,8 +1,7 @@
 name: Build and publish new release on version tag
 on:
   push:
-    tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+'
+    branches: [feature/supplemental-metadata-support]
 
 jobs:
   make-release:
